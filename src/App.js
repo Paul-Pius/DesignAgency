@@ -14,8 +14,9 @@ import digital2 from '../src/images/digital2.png';
 import digital3 from '../src/images/digital3.png';
 import digital4 from '../src/images/digital4.png';
 import ScrollableLogos from './component/scrollable';
-import MySlider from './component/mySlider';
 import Carousel from './component/carousel';
+import SearchInput from '../src/component/searchInput';
+import Footer from '../src/component/footer';
 
 function App() {
 
@@ -239,6 +240,18 @@ function App() {
             </p>
             <div className="relative ml-16 bg-black-500 mt-80" style={scroll}>
               <Carousel />
+            </div>
+            <div className="relative ml-18 mt-60 ml-16 mr-16 h-40">
+              <h4 className='text-center text-green-600'>SUBSCRIBE</h4>
+              <p className='text-center font-bold'>Subscribe to get the latest<br />
+              news about us</p><br />
+              <p className='text-center -mt-5 text-[#8B8B8B] text-sm'>Please drop your email below to get daily update about what we do</p>
+              <div className='flex justify-center items-center mt-3'>
+                <SearchInput />
+              </div>
+            </div>
+            <div className='mt-12'>
+              <Footer />
             </div>
           </div>
     </div>
