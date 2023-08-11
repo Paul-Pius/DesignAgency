@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex items-center mr-12">
-        <ul className="flex space-x-12">
+        <ul className="flex space-x-6">
           <li className="mt-2">
           <div
               id='dropdown'
