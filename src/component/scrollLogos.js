@@ -12,7 +12,7 @@ function Scroll() {
   return (
     <div className="App">
       <div>
-        <Marquee direction="left" speed={100} delay={5}>
+        <Marquee direction="left" speed={100} delay={2}>
           <div className="image_wrapper">
             <img src={google} alt="" />
           </div>

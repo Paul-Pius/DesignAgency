@@ -38,7 +38,7 @@ const Navbar = () => {
                 Services <FiChevronDown className="ml-1" size={16} />
               </div>
               {isDropdownVisible && (
-                <div className="absolute z-10 right-0 mt-2 py-2 bg-gray-700 rounded-lg shadow-lg text-left">
+                <div className="absolute z-10 right-30 mt-2 py-2 bg-gray-700 rounded-lg shadow-lg text-left">
                   <a href="#resources" className="block px-4 py-2 hover:bg-green-100 text-white" onClick={handleServicesLeave}>
                     Resources
                   </a>

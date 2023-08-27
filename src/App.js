@@ -64,17 +64,17 @@ function App() {
     top: "125em",
   };
   const dig1 = {
-    top: "109em",
+    top: "113em",
   };
   const dig1h = {
-    top: "106.5em",
+    top: "110.5em",
   };
   const dig2 = {
-    top: "119.5em",
+    top: "125em",
     left: "38.5em",
   };
   const dig2h = {
-    top: "117em",
+    top: "122em",
     left: "38.5em",
   };
   const dig3h = {
